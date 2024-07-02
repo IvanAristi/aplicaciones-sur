@@ -11,7 +11,7 @@
     font-family: "DM Sans", sans-serif;
     background-color:  #EDEDEF;
     overflow: hidden;
-    
+
   }
 
   body{
@@ -80,10 +80,10 @@
     width: 250px;
   }
   #global-web{
-    background-image: url('./img/global-web.jpg');
+    background-image: url('./img/aplicativo-global-web.jpg');
   }
   #adr{
-    background-image: url('./img/adr.png');
+    background-image: url('./img/aplicativo-adr.png');
   }
 
   .tooltip-box {
