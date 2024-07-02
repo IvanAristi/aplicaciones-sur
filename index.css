@@ -70,11 +70,12 @@
   #control-ases{
     background-image: url('./img/aplicaciones.png');
   }
-  #dynatrace{
+   #dynatrace{
     background-image: url('./img/dynatrace.png');
   }
   #splum{
     background-image: url('./img/splunk.png');
+    width: 250px;
   }
   #splum2{
     background-image: url('./img/aplicaciones.png');
@@ -86,7 +87,7 @@
   .tooltip-box {
     display: none;
     position: absolute;
-    background-color: #2aa6b1;
+    background-color: #3a5c5f;
     color: #fff;
     padding: 20px 15px;
     width: 500PX;
