@@ -77,11 +77,11 @@
     background-image: url('./img/splunk.avif');
     width: 250px;
   }
-  #splum2{
-    background-image: url('./img/aplicaciones.png');
+  #global-web{
+    background-image: url('./img/GLOBAL-WEB.jpg');
   }
-  #splum3{
-    background-image: url('./img/aplicaciones.png');
+  #adr{
+    background-image: url('./img/ADR.png');
   }
 
   .tooltip-box {
