@@ -9,7 +9,9 @@
   html {
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
-   background-color:  #EDEDEF;
+    background-color:  #EDEDEF;
+    overflow: hidden;
+    
   }
 
   body{
