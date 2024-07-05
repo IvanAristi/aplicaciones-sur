@@ -79,10 +79,13 @@
     width: 250px;
   }
   #global-web{
-    background-image: url('./img/aplicativo-global-web.jpg');
+    background-image: url('./img/global-web.png');
   }
   #adr{
     background-image: url('./img/aplicativo-adr.png');
+  }
+  #escalamiento{
+    background-image: url('./img/matriz-escalamiento.png');
   }
 
   .tooltip-box {
