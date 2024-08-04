@@ -68,8 +68,15 @@
   #conflues{
     background-image: url('./img/confluence.png'); 
   }
+  #zeus{
+    background-image: url('./img/zeuss.webp');
+  }
+  #sura-broker{
+    background-image: url('./img/SURABROKER.png');
+  }
+  
   #control-ases{
-    background-image: url('./img/aplicaciones.png');
+    background-image: url('./img/control-ases.png');
   }
    #dynatrace{
     background-image: url('./img/dynatrace.png');
@@ -81,6 +88,7 @@
   #global-web{
     background-image: url('./img/global-web.png');
   }
+
   #adr{
     background-image: url('./img/aplicativo-adr.png');
   }
