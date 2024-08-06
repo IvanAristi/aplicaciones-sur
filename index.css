@@ -92,6 +92,14 @@
   #adr{
     background-image: url('./img/aplicativo-adr.png');
   }
+  #PAS{
+    background-image: url('./img/pas.png');
+  }
+
+ #rabbit{
+  background-image: url('./img/rabbit.png');
+ }
+
   #escalamiento{
     background-image: url('./img/matriz-escalamiento.png');
   }
