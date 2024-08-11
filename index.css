@@ -27,13 +27,13 @@
   width: 100%;
   height: 60px;
 
+
 background-color: #2f294a;
 background-image: linear-gradient(330deg, #2f294a 0%, #292e49 15%, #29434a 100%);
-
   display: flex;
   justify-content: space-between;
 
-  
+
 }
 
 nav{
@@ -50,11 +50,6 @@ nav{
   width: 90vw;
   opacity: 90%;
   height: 250px;
- 
-  background-color: #29394a;
-background-image: linear-gradient(43deg, #29394a 0%, #2f294a 17%, #292e49 39%, #29434a 60%, #3a294a 80%, #3a294a 100%);
-
-  color: #FA940C;
 
 }
 
@@ -69,13 +64,13 @@ nav a {
 }
 
 #solucion {
- background-color: #09ad32;
+ background-color: hwb(192 9% 21%);
  
   border-radius: 10px;
   
 }
 #solucion:hover{
-  background-color: #66c7e0;
+  background-color: hwb(192 31% 6%);
 
 }
 nav ul li{
