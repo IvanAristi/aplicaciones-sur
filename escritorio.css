@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    flex-direction: row;
+    border-radius: 0px;
+    background-color: #293349;
+    height: 60px;
+    flex-wrap: nowrap;
+    opacity: 100%;
+}
+
+.menu{
+    display: none;
+}
+.logo{
+  width: 100vw;  
+}
+
+.logos{
+    width: 15vw;
+}
+
+nav{
+    display: block;
+    position: static;
+    width: 85vw;
+    background-color: #293349;
+    height: 60px;
+    border-radius: 0px;
+    top: 0px;
+    margin: 0;
+    opacity: 100%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   background-color: #293349;
+    padding: 0;
+    border-radius: 0px;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+}
+
+nav ul li{
+    width: 200px;
+    margin: 10px 30px;
+   height: 40px;
+   
+}
