@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: x none;
+   
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+   background-color: rgb(181, 204, 214);
+  }
+
+  .titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 2.0rem;
+    margin: 10PX;
+  }
+  .padre{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+  }
+  h2{
+    width: 35vw;
+  }
+
+  .padre2{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 90vw;
+    height: auto;
+    justify-content: center;
+  }
+ 
+
+  section{
+    width: 450px;
+    height: auto;
+  }
+ section div{
+    width: 450px;
+    font-size: 1.8rem;
+   height: 70px;
+   border: 2px solid black; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+
+  }
+
+
+
+  
+
+ 
