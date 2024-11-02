@@ -12,6 +12,35 @@
    background-color: rgb(181, 204, 214);
   }
 
+  body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* Fondo con opacidad */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/lago.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0.80; 
+    z-index: -1; 
+}
+
+h1, p {
+    position: relative;
+    z-index: 1;
+    color: black;
+}
+
   .titulo{
     display: flex;
     justify-content: center;
@@ -46,7 +75,8 @@
     width: 450px;
     font-size: 1.8rem;
    height: 70px;
-   border: 2px solid black; 
+   border: 2px solid rgb(21, 23, 23); 
+   opacity: 100%;
   display: flex;
   flex-direction: column; 
   justify-content: center;

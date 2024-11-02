@@ -9,7 +9,7 @@
   html {
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
-    background-color:  hsl(240, 17%, 35%);
+    background-color:  #00329E;
 
   }
 
@@ -149,6 +149,13 @@ border-radius: 10px;
     background-color: #00329E;
     color: white;
   }
+  h2{
+    background-color: white;
+    font-size: 4.0rem;
+    text-align: center;
+    background-color: #00329E;
+    color: white;
+  }
 
   span{
     margin: 30px 10px;
@@ -169,9 +176,12 @@ border-radius: 10px;
     background-image: url('./img/ca.png');
    
   }
+  #bmc{
+    background-image:url('./img/bmc.png') ;
+  }
 
-  #sura{
-    background-image: url('./img/aplicaciones.png');
+  #directorio-medico{
+    background-image: url('./img/directorio-medico.png');
   }
   #conflues{
     background-image: url('./img/confluence.png'); 
@@ -233,4 +243,14 @@ border-radius: 10px;
     display: block; 
     margin-bottom: 1px;
   }
+  .container2{
+    margin-top: 100px;
+  }
+
+  #repo-global{
+    background-image: url('./img/repositorio.png');
+   }
+   #analizador{
+    background-image: url('./img/repositorio.png');
+   }
   
