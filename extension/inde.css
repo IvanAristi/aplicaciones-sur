@@ -1,0 +1,26 @@
+#floating-icon1, #floating-icon2 {
+    position: fixed;
+    right: 20px; /* Alinearlos en el mismo borde derecho */
+    z-index: 1000;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    margin-top: 20px;
+}
+
+/* Estilo para el primer ícono */
+#floating-icon1 {
+    bottom: 20px; /* Primer ícono en la parte inferior */
+    background-color: cadetblue;
+}
+
+/* Estilo para el segundo ícono */
+#floating-icon2 {
+    margin-top: 20px;
+    bottom: 90px; /* Segundo ícono ligeramente más arriba */
+    background-color: chocolate;
+}
+
+/* Efecto hover para los íconos */
+#floating-icon1:hover, #floating-icon2:hover {
+    opacity: 1; /* Cambiar opacidad al pasar el ratón */
+}

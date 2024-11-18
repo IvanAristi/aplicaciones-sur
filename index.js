@@ -54,5 +54,22 @@ document.querySelectorAll('.tooltip').forEach(span => {
       tooltip.style.top = `${event.pageY + 5}px`; 
     }
   });
+
+
+  // Crear el elemento del ícono
+const icon = document.createElement("img");
+icon.src = chrome.runtime.getURL("icon.png");
+icon.id = "floating-icon";
+icon.title = "Volver a la Página de Inicio";
+icon.style.cursor = "pointer";
+
+// Al hacer clic en el ícono, redirige a tu página de inicio de GitHub Pages
+icon.addEventListener("click", () => {
+  window.location.href = "https://tuusuario.github.io";
+});
+
+// Agregar el ícono al body
+document.body.appendChild(icon);
+
   
   

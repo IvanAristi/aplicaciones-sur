@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Icono Flotante",
+    "version": "1.0",
+    "description": "Muestra un icono flotante en todas las páginas.",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_title": "Icono Flotante"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["contenty.js"],
+        "css": ["inde.css"]
+      }
+    ],
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
