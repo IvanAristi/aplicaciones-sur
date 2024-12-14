@@ -9,8 +9,7 @@
   html {
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
-    background-color:  #00329E;
-
+    background-color:  hsl(221, 49%, 72%);;
   }
 
   header{
@@ -128,7 +127,7 @@ border-radius: 10px;
 
   .container{
    margin:  0 auto;
-    background-color: #00329E;
+    background-color: hsl(221, 49%, 72%);
     display: flex;
     flex-wrap: wrap;
    /* width: 90vw;*/
@@ -146,14 +145,14 @@ border-radius: 10px;
     background-color: white;
     font-size: 4.0rem;
     text-align: center;
-    background-color: #00329E;
+    background-color:hsl(221, 49%, 72%);;;
     color: white;
   }
   h2{
     background-color: white;
     font-size: 4.0rem;
     text-align: center;
-    background-color: #00329E;
+    background-color: hsl(221, 49%, 72%);;;
     color: white;
   }
 
@@ -164,7 +163,6 @@ border-radius: 10px;
     height: 200px;
     background-repeat: no-repeat;
     background-size: contain;
-
   }
 
   span:hover{
@@ -256,6 +254,11 @@ border-radius: 10px;
    #tablero{
     background-image: url('./img/tablero.png');
    }
+   #welogic{
+    background-image: url('./img//welogic.png');
+   }
+   
+
 
 
 
